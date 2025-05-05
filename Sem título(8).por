@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+    cadeia nome, senha,loginnome,loginsenha, nada
+    escreva("Registar conta : \n\n")
+    escreva("Nome de usuario : ")
+    leia(nome)
+    escreva("Registrar Senha : ")
+    leia(senha)
+   
+    escreva("NOME : ")
+    leia(loginnome)
+    nada=loginnome
+   se (loginnome==nada){
+enquanto(loginnome!=nome){
+  escreva("tente novamente\n\n")
+  escreva("NOME : ")
+    leia(loginnome)
+}
+   }
+   escreva("Senha : ")
+   leia(loginsenha)
+   se (loginsenha!=senha){
+enquanto(loginsenha!=senha){
+  escreva("tente novamente\n\n")
+  escreva("senha : ")
+    leia(loginsenha)
+}
+   }
+  }
+}
